@@ -1,8 +1,7 @@
 AllCops:
   Exclude:
     - 'db/schema.rb'
-    - 'db/migrate/**/*'
-    - 'config/**/*'
     - 'bin/**/*'
+    - 'Gemfile'
     - 'tmp/**/*'
   NewCops: enable
