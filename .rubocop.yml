@@ -2,14 +2,5 @@ AllCops:
   Exclude:
     - 'db/schema.rb'
     - 'bin/**/*'
-    - 'Gemfile'
     - 'tmp/**/*'
   NewCops: enable
-Style/StringLiterals:
-  Enabled: true
-  Exclude:
-    - 'config/**/*'
-Style/FrozenStringLiteralComment:
-  Enabled: true
-  Exclude:
-    - 'config/**/*'
